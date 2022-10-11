@@ -1,0 +1,50 @@
+/* about section styling */
+.about {
+    background-color: black;
+    color: white;
+}
+
+.about .title::after {
+    background-color: black;
+    content: "Who we are";
+}
+
+.about .about-content .left {
+    width: 555%;
+}
+
+.about .about-content .right {
+    width: 555%;
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span {
+    color: crimson;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+}
+
+.about .about-content .right a {
+    display: inline-block;
+    background: crimson;
+    color: rgb(2, 1, 1);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+}
+
+.about .about-content .right a:hover {
+    color: crimson;
+    background: none;
+}
